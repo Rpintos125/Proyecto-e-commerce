@@ -1,0 +1,57 @@
+.encabezado {
+  background-image: url(./imagenes/corrientes-pora-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 120px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8vw;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0), -2px -2px 0px blue;
+  margin: 0px;
+}
+
+.subtitulo-encabezado {
+  text-align: center;
+  font-size: 3vw;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0), -1px -1px 0px blue;
+  margin: 0px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.camisas,
+.zapatos,
+.sublimaciones {
+  flex: 1;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border: 2px solid black;
+  font-size: medium;
+}
+
+.camisas {
+  background-image: url(./imagenes/overol.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.zapatos {
+  background-image: url(./imagenes/zapatos.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.sublimaciones {
+  background-image: url(./imagenes/sublimacion.jpg);
+  background-size: cover;
+  background-position: center center;
+}
