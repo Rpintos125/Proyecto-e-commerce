@@ -75,7 +75,6 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  -webkit-text-stroke: 1px black;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
