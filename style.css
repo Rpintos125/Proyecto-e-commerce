@@ -1,3 +1,6 @@
+body {
+  background-image: linear-gradient(to bottom, #f0f0f0, #c8ca36);
+}
 .encabezado {
   background-image: url(./imagenes/corrientes-pora-2.jpg);
   background-size: cover;
@@ -35,23 +38,104 @@ h1 {
   padding: 50px;
   border: 1px solid #ccc;
   border: 2px solid black;
-  font-size: medium;
+  
 }
 
 .camisas {
   background-image: url(./imagenes/overol.jpg);
   background-size: cover;
   background-position: center center;
+
 }
 
 .zapatos {
   background-image: url(./imagenes/zapatos.jpg);
   background-size: cover;
   background-position: center center;
-}
 
+}
 .sublimaciones {
   background-image: url(./imagenes/sublimacion.jpg);
   background-size: cover;
   background-position: center center;
+
+}
+.titulo-articulo {
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight:bolder;
+  letter-spacing: 3px;
+  color:aliceblue;
+  text-shadow: 1px 1px 1px red;
+  text-align: center;
+}
+.texto-articulo{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.reseñas {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); 2 columnas de igual tamaño */
+  gap: 20px; /* Espacio entre elementos */
+  
+}
+
+.reseña {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: blue;
+}
+
+.estrellas {
+  display: flex; /* Para alinear las estrellas en una fila */
+}
+
+fieldset {
+  border: 2px solid #000000;
+  padding: 20px;
+  background-color: burlywood;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;   
+
+}
+
+@media (max-width: 768px) {
+  fieldset {
+      padding: 10px;
+  }
+  label {
+      text-align: center;
+  }
 }

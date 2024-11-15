@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Tienda Corrientes</title>
+    <script src="https://kit.fontawesome.com/ad7b9dfc8c.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header class="encabezado">
         <h1>Tienda Corrientes</h1>
         <h2 class="subtitulo-encabezado">Ropa de trabajo y sublimaciones</h2>
+
     </header>
     <nav>
         <ul class="menu">
@@ -23,16 +26,16 @@
     <main>
         <section class="section">
             <div class="camisas">
-                <h3>Camisas de trabajo</h3>
-                <p>Articulo sobre las camisas de trabajo y su uso cotidiano</p>
+                <h3 class="titulo-articulo">Camisas de trabajo</h3>
+                <p class="texto-articulo">Articulo sobre las camisas de trabajo y su uso cotidiano</p>
             </div>
             <div class="zapatos">
-                <h3>Zapatos con protección</h3>
-                <p>Articulo sobre estadísticas de perdida de dedos en el trabajo</p>
+                <h3 class="titulo-articulo">Zapatos con protección</h3>
+                <p class="texto-articulo">Articulo sobre estadísticas de perdida de dedos en el trabajo</p>
             </div>
             <div class="sublimaciones">
-                <h3>Sublimaciones</h3>
-                <p>Articulo sobre las sublimaciones y nuestros clientes</p>
+                <h3 class="titulo-articulo">Sublimaciones</h3>
+                <p class="texto-articulo">Articulo sobre las sublimaciones y nuestros clientes</p>
             </div>
         </section>
         <article>
@@ -44,12 +47,49 @@
                 <li>Completa los datos de envío</li>
                 <li>Finaliza la compra</li>
             </ol>
-            <p>Para más información contáctenos</p>
+            <p class="ParaMasInfo">Para más información contáctenos <i class="fa-solid fa-envelope"></i></p>
+
         </article>
+        <section class="reseñas">
+            <div class="reseña">
+                <h2>Reseña 1</h2>
+                <div class="estrellas">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="reseña">
+                <h2>Reseña 2</h2>
+                <div class="estrellas">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="reseña">
+                <h2>Reseña 3</h2>
+                <div class="estrellas">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section>
     </main>
     <fieldset>
-        <legend>Contacto</legend>
-        <form action="" method="post">
+        <legend>Contacto <i class="fa-solid fa-envelope"></i></legend>
+
+        <form action="https://formspree.io/f/manyjang" method="post">
             <div>
                 <!-- Nombre y apellido -->
                 <label for="nombre">Nombre y Apellido</label>

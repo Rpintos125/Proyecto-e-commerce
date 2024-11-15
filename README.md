@@ -1,4 +1,25 @@
+Tienda Corrientes
+
+Pagina e-comerce de venta de productos y servicios.
+se ofrece ropa de trabajo y servicio de sublimado.
+
+
+
+
+
 # talentotech-ecomerce
+
+
+FALTA
+
+
+● El proyecto debe estar subido a un hosting gratuito (Netlify o GitHub Pages), con una URL funcional
+para visualizar el sitio.
+
+
+
+
+
 
 Pre-Entrega de Proyecto:
 
